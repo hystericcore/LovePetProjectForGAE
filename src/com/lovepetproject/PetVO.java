@@ -2,28 +2,19 @@ package com.lovepetproject;
 
 public class PetVO {
 	private String thumbnailSrc;
-	private String imageSrc;
 	private String linkSrc;
 	private String boardID;
 	private String date;
-	private String leftDay;
 	private String type;
 	private String sex;
 	private String foundLocation;
 	private String detail;
 	private String state;
-	private String tel;
 	public String getThumbnailSrc() {
 		return thumbnailSrc;
 	}
 	public void setThumbnailSrc(String thumbnailSrc) {
 		this.thumbnailSrc = thumbnailSrc;
-	}
-	public String getImageSrc() {
-		return imageSrc;
-	}
-	public void setImageSrc(String imageSrc) {
-		this.imageSrc = imageSrc;
 	}
 	public String getLinkSrc() {
 		return linkSrc;
@@ -42,12 +33,6 @@ public class PetVO {
 	}
 	public void setDate(String date) {
 		this.date = date;
-	}
-	public String getLeftDay() {
-		return leftDay;
-	}
-	public void setLeftDay(String leftDay) {
-		this.leftDay = leftDay;
 	}
 	public String getType() {
 		return type;
@@ -78,11 +63,5 @@ public class PetVO {
 	}
 	public void setState(String state) {
 		this.state = state;
-	}
-	public String getTel() {
-		return tel;
-	}
-	public void setTel(String tel) {
-		this.tel = tel;
 	}
 }
