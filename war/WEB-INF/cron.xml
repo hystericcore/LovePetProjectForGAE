@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/todayPetList</url>
+    <description>Storing parsed pet list to baas.io</description>
+    <schedule>every 3 hours</schedule>
+  </cron>
+</cronentries>
